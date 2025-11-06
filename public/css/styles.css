@@ -1,0 +1,13 @@
+/* basic styles */
+body { font-family: Arial, sans-serif; margin:0; background:#f7f8fb; color:#222; }
+.topnav { background:#2b6cb0; padding:10px; display:flex; gap:12px; }
+.topnav a { color:white; text-decoration:none; font-weight:600; }
+.container { max-width:980px; margin:24px auto; padding:12px; }
+.card { background:white; padding:16px; border-radius:8px; box-shadow: 0 2px 6px rgba(0,0,0,0.06); margin-bottom:16px; }
+.grid { display:flex; gap:12px; }
+.grid .card { flex:1; text-align:center; }
+input, textarea { width:100%; padding:8px; margin:6px 0; border-radius:6px; border:1px solid #ddd; }
+button { padding:8px 12px; border-radius:6px; border:none; background:#2b6cb0; color:#fff; cursor:pointer; }
+.footer { text-align:center; padding:12px; color:#666; font-size:14px; }
+.messages { height:300px; overflow:auto; border:1px solid #eee; padding:8px; margin-bottom:8px; }
+.hidden { display:none; }
