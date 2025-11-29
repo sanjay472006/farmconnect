@@ -1,0 +1,85 @@
+/* Global Agriculture Theme */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(#f2ffe8, #e6f7d4);
+  color: #2c3e1f;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6') center/cover;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0 3px 5px rgba(0,0,0,0.4);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Farmer Grid Layout */
+.farmer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Farmer Card Design */
+.farmer-card {
+  background: #ffffffcc;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-left: 8px solid #4CAF50;
+  transition: 0.3s ease;
+}
+
+.farmer-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.farmer-card h2 {
+  color: #2b5a20;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.farmer-card p {
+  color: #374834;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Buttons */
+button {
+  background: #4CAF50;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #3b8d3f;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2f4f2f;
+  color: white;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
